@@ -8,7 +8,7 @@ Global packages and CLI tools to be used in PHP development.
 
 ### Installing
 
-> Note: The following instructions asumes that you have [`composer` installed globally](https://getcomposer.org/doc/00-intro.md#globally). 
+> Note: The following instructions asumes that you have [`composer` installed globally](https://getcomposer.org/doc/00-intro.md#globally).
 
 #### Global
 This installs CLI tools in global PATH to be used directly:
@@ -23,8 +23,8 @@ composer global require nelson6e65/php-development
 - `phpcbf --version`
 
 
-#### As develpoment requirement
-This installs CLI tools as dev requirements to be distributed with your package (instalbles via `composer install`:
+#### As development requirement
+This installs CLI tools as dev requirements to be distributed with your package (see `composer install`):
 
 ```sh
 composer require --dev nelson6e65/php-development
